@@ -16,20 +16,45 @@ body {
 #header {
     display: flex;
     height: 100px;
-    background-color: black;
-    color: white;
+    background-color: white;
     align-items: center;
     justify-content: space-around;
 }
 
 #header a {
-    color: white;
+    color: green;
     text-decoration: none;
 }
+
 #header a:hover {
     color: yellowgreen;
+    cursor: pointer;
+    text-decoration:underline;
 }
+
+
+/* #header a i:hover{
+} */
+
+
+#map {
+    width: 500px;
+    height: 400px;
+}
+
 
 .container {
     background-color: aqua;
+}
+
+#login-button {
+    background-color: white;
+    color: green;
+    border-radius: 13px;
+    border: 2px solid tomato;
+}
+
+#login-button:hover {
+    background-color: black;
+    color: white;
 }

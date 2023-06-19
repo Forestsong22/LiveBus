@@ -2,14 +2,17 @@
 <html lang="ko">
 <head>
     <link rel="stylesheet" href="/css/index.css">
-    <title>실시간 버스정보</title>
+    <title>실시간 대전버스</title>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b35463f098cc636e56540ad7e4877f74"></script>
+    <script src="https://kit.fontawesome.com/26657818f9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="header">
-        <a href="/">버스 번호로 찾기</a>
-        <a href="/">정류장 이름으로 찾기</a>
-        <a href="/">즐겨찾기</a>
-        <a href="/templates/register.html">로그인 & 회원가입</a>
+        <a href="/" class="main-logo"><i class="fa-solid fa-bus fa-2xl" style="color: #1a5bcb;"></i></a>
+        <a href="/busNumber">버스 번호로 찾기</a>
+        <a href="/busStop">정류장 이름으로 찾기</a>
+        <a href="/myFavorite">즐겨찾기</a>
+        <!-- <a href="/templates/register.html"><button id="login-button"> 로그인</button></a> -->
     </header>
     <nav id="navbar">
         <div>지역 선택</div>
@@ -18,8 +21,9 @@
         <div>4</div>
     </nav>
 
-    <content>
-        <div class="container">지도</div>
-    </content>
+
+    <div id="map" style="width:500px;height:400px;"></div>
+    <script src="/map.js">
+    </script>
 </body>
 </html>

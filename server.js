@@ -11,7 +11,17 @@ app.get('/', (req,res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
+app.get('/busNumber', (req, res)=> {
+    res.sendFile(__dirname + '/templates/busNumber.html')
+});
 
+app.get('/busStop', (req, res)=> {
+    res.sendFile(__dirname + '/templates/busStop.html')
+});
+
+app.get('/myFavorite', (req, res)=> {
+    res.sendFile(__dirname + '/templates/myFavorite.html')
+});
 
 
 app.listen(port, () => {
