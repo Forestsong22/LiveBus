@@ -1,0 +1,23 @@
+{
+  "name": "livebus",
+  "version": "1.0.0",
+  "description": "- 실시간 버스 정보 조회하기 웹사이트/어플 제작",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forestsong22/LiveBus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Forestsong22/LiveBus/issues"
+  },
+  "homepage": "https://github.com/Forestsong22/LiveBus#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
