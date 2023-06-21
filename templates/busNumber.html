@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/busNumber.css">
+    <script src="https://kit.fontawesome.com/26657818f9.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>버스 번호로 찾기 !!!</h1>
+    <header id="header">
+        <a href="/" class="main-logo"><i class="fa-solid fa-bus fa-2xl" style="color: #1a5bcb;"></i></a>
+        <a href="/busNumber">버스 번호로 찾기</a>
+        <a href="/busName">정류장 이름으로 찾기</a>
+        <a href="/myFavorite">즐겨찾기</a>
+    </header>
+    <h1>버스 번호로 찾기 </h1>
+    <form id="busNumberInput">
+        <input type="text" placeholder="버스 번호 입력해주세요."/>
+        <button>찾기</button>
+    </form>
 </body>
 </html>
